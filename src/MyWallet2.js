@@ -122,7 +122,7 @@ const MyWallet2 = () => {
                     user != '' && user[0].status === 'approved' && walletAddress ?
                         <div>
                             <p>
-                                Join the Penka of ’Solana World Cup’ with the code <span style={{ fontSize: 'bold' }}>B94554</span> or following this link👇
+                                Join the Penka of ’Solana World Cup’ with the code <span className='bold'>B94554</span> or following this link👇
 
                                 <p>⚽️ iPhone: <a href='https://penka.io/id=B94554'>https://penka.io/id=B94554</a></p>
 

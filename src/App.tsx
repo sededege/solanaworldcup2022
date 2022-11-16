@@ -20,6 +20,7 @@ import { clusterApiUrl } from "@solana/web3.js";
 import MyWallet2 from "./MyWallet2.js";
 import MyWallet from "./MyWallet";
 import MyWallet3 from "./MyWallet3";
+import {RiTwitterFill,RiDiscordFill } from 'react-icons/ri'
 
 function App() {
   // Can be set to 'devnet', 'testnet', or 'mainnet-beta'
@@ -45,28 +46,31 @@ function App() {
   return (
     <ConnectionProvider endpoint={endpoint}>
       <WalletProvider wallets={wallets}>
-
+        <div style={{paddingTop: 40, paddingLeft: 30}}>
+        <a  href='https://twitter.com/SolWorldCup2022'><RiTwitterFill style={{ color: 'white', fontSize: 30, cursor: 'pointer'}}/></a>
+        <a  href='https://discord.gg/8RfTu6EkqB'> <RiDiscordFill style={{ color: 'white', fontSize: 30}}/></a> 
+        </div>
         <div className="App">
           <header className="App-header">
-          
-         
+
+
 
             <MyWallet />
           </header>
-         
+
           <header className="App-header2">
-          
-         
+
+
 
             <MyWallet2 />
           </header>
-          <header  className="App-header3">
-          
-          <MyWallet3 />
+          <header className="App-header3">
+
+            <MyWallet3 />
 
 
           </header>
-         
+
         </div>
       </WalletProvider>
     </ConnectionProvider>

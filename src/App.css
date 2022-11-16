@@ -34,7 +34,7 @@ body {
   justify-content: center;
   font-size: calc(2px + 2vmin);
   color: white;
-  height: 80vh;
+  height: 70vh;
 
 }
 
@@ -52,6 +52,7 @@ body {
   color: white;
   width: 20vw;
   padding: 60px;
+  height: 70vh;
 
 }
 
@@ -69,7 +70,8 @@ body {
   font-size: calc(2px + 2vmin);
   color: white;
   width: 18vw;
-  padding: 40px;
+  padding: 60px;
+  height: 70vh;
 
 }
 
@@ -124,4 +126,12 @@ margin-top: 10px;
 .GALERY {
   align-items: 'center';
 
+}
+
+li {
+  font-size: 15px !important
+}
+
+.bold {
+  font-weight: bold;
 }
