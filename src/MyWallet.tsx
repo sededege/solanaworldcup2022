@@ -51,14 +51,14 @@ const MyWallet: React.FC = () => {
                     </ul>
                     <h2>Prizes</h2>
                     <ul>
-                        <li>250 SOL for the 1st place.</li>
-                        <li>125 SOL for the 2nd place. </li>
-                        <li>50 SOL per cup fase (1st,2nd,3rd,round of 16,quarter finals, semifinal, final) </li>
+                        <li>150 SOL for the 1st place.</li>
+                        <li>75 SOL for the 2nd place. </li>
+                        <li>15 SOL per cup fase (1st,2nd,3rd,round of 16,quarter finals, semifinal, final) </li>
                     </ul>
                     <h2>FAQ</h2>
                     <ul>
                         <li>Total supply: 333</li>
-                        <li>Price: 5 SOL</li>
+                        <li>Price: 2.5 SOL</li>
                         <li className='bold'>If I am the winner of any of the prizes, how do I receive it? </li>
                         <li>I will be checking all the phases and points in the App. Then I will verify if you really sent your nft and your wallet. To then send you the corresponding prize. </li>
 
