@@ -41,7 +41,7 @@ const MyWallet: React.FC = () => {
                 <span className="button-wrapper">
                     <h2>How to play?</h2>
                     <ul>
-                        <li>Buy a “Solana World Cup 2022” ticket on <a href='https://magiceden.io/solana_world_cup_2022'>Magic Eden.</a></li>
+                        <li>Buy a “Solana World Cup 2022” ticket on <a href='https://magiceden.io/marketplace/sol_world_cup'>Magic Eden.</a></li>
                         <li>Send it to the next burn wallet:<span className='bold'> 2Ny7....cwQy</span>  <button onClick={() => navigator.clipboard.writeText('2Ny7ohSDgFynTXcGxsBRPFjCruLtLcqiLmg6eut2cwQy')}>Copy</button>, Connect here with your wallet & post the Tx link in the form on the right.</li> 
                         <li>Check the status soon & wait for our approval.</li>
                         <li>When it appears, entry in the link below, download the App & entry on <span className='bold'>“Solana World Cup 2022”</span> group with the code showed.</li>
